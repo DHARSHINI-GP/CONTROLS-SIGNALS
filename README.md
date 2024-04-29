@@ -8,7 +8,8 @@ What is control signals?
 4.Control signal refers to a digital signal used to control the operation of various components within a computer’s CPU,memory or I/O devices.
 5.It determines the sequence of operations.
 
-              ![image](https://github.com/DHARSHINI-GP/CONTROLS-SIGNALS/assets/168258983/313ffc14-0bc0-4713-9e7b-e5d8ac4a0b6d)
+              ![Screenshot_29-4-2024_184346_](https://github.com/DHARSHINI-GP/CONTROLS-SIGNALS/assets/168258983/ab96781f-23ad-4cb4-a291-2b22333d0bf8)
+
 
 
 
