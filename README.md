@@ -1,4 +1,4 @@
-# CONTROLS-SIGNALS
+# CONTROL-SIGNALS
 
 **What is control signals?**
 
