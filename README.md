@@ -1,6 +1,5 @@
 # CONTROLS-SIGNALS
 
-      CONTROL  SIGNALS
 **What is control signals?**
 
 
@@ -104,6 +103,7 @@ In computer organization, hardwired control signals refer to the use of fixed ha
 ![Screenshot_29-4-2024_192114_](https://github.com/DHARSHINI-GP/CONTROLS-SIGNALS/assets/168258983/3a1ee57f-4b0f-43eb-a5f7-72bcfc51bb31)
 
 **Advantages of Microprammed Control Signals:**
+
 1.Flexibility.
 
 2.Ease of Design.
@@ -123,65 +123,60 @@ In computer organization, hardwired control signals refer to the use of fixed ha
 4.Difficulty in Real-Time Systems.
 
 **Types of Control Signals:**
-   **1.Data Path Control Signals:**
-        1.Read Enable (RE)
+
+**1.Data Path Control Signals:**
+
+1.Read Enable (RE)
         
-        2.Write Enable (WE)
+2.Write Enable (WE)
         
-        3.Data Enable (DEN)
+3.Data Enable (DEN)
         
-        4.Data Strobe (DS)
+4.Data Strobe (DS)
         
-        5.Memory/IO Select (M/IO)
+5.Memory/IO Select (M/IO)
         
 **2.Instruction Control Signals:**
-        1.Instruction Fetch (IF)
+
+1.Instruction Fetch (IF)
         
-        2.Instruction Decode (ID)
+2.Instruction Decode (ID)
         
-        3.Execution Control (EC)
+3.Execution Control (EC)
         
-        4.Memory Access (MA)
+4.Memory Access (MA)
         
-        5.Write Back (WB)
+5.Write Back (WB)
         
 **3.Arithmetic and Logic Unit (ALU) Control Signals:**
-        1.ALU Operations Select: Specifies the arithmetic or logical operation to be performed by the ALU (e.g., addition, subtraction, AND, OR).
+
+1.ALU Operations Select: Specifies the arithmetic or logical operation to be performed by the ALU (e.g., addition, subtraction, AND, OR).
         
-        2.Carry In/Out: Indicates the presence of a carry from a previous ALU operation or generates a carry-out signal for multi-word arithmetic operations.
+2.Carry In/Out: Indicates the presence of a carry from a previous ALU operation or generates a carry-out signal for multi-word arithmetic operations.
         
-        3.Overflow: Signals whether an arithmetic operation resulted in overflow, indicating an error condition.
+3.Overflow: Signals whether an arithmetic operation resulted in overflow, indicating an error condition.
         
-        4.Zero Flag: Indicates whether the result of an operation is zero.
+4.Zero Flag: Indicates whether the result of an operation is zero.
         
-        5.Negative Flag: Indicates whether the result of an operation is negative.
+5.Negative Flag: Indicates whether the result of an operation is negative.
         
 **4.Clock Control Signals:**
 
-        1.Clock: The primary timing signal that synchronizes the operation of various components within the CPU and the system.
+1.Clock: The primary timing signal that synchronizes the operation of various components within the CPU and the system.
         
-        2.Clock Enable (CLKEN): Enables or disables the clock signal to specific components or modules within the CPU, allowing for power-saving modes or clock gating.
+2.Clock Enable (CLKEN): Enables or disables the clock signal to specific components or modules within the CPU, allowing for power-saving modes or clock gating.
         
 **5.Interrupt Control Signals:**
 
-        1.Interrupt Request (IRQ): Indicates that an external device or peripheral has requested attention from the CPU.
+1.Interrupt Request (IRQ): Indicates that an external device or peripheral has requested attention from the CPU.
         
-        2.Interrupt Acknowledge (INTA): Acknowledges an interrupt request and initiates interrupt handling.
+2.Interrupt Acknowledge (INTA): Acknowledges an interrupt request and initiates interrupt handling.
         
-        3.Interrupt Enable (INTEN): Enables or disables interrupt processing within the CPU.
+3.Interrupt Enable (INTEN): Enables or disables interrupt processing within the CPU.
         
 **6.Reset Control Signal:**
 
-        1.Reset: Initializes the CPU and other components to a known state when the system is powered on or reset, clearing registers, counters, and other stateful components.
-
-
-
-
-
-
-
-
-
+1.Reset: Initializes the CPU and other components to a known state when the system is powered on or reset, clearing registers, counters, and other stateful components.
 
 
 
