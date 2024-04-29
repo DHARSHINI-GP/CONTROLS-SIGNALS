@@ -124,31 +124,54 @@ In computer organization, hardwired control signals refer to the use of fixed ha
 
 **Types of Control Signals:**
    **1.Data Path Control Signals:**
-        1.Read Enable (RE): Indicates that the CPU is performing a read operation from memory or I/O.
-        2.Write Enable (WE): Indicates that the CPU is performing a write operation to memory or I/O.
-        3.Data Enable (DEN): Specifies the validity of data on the data bus during read or write operations.
-        4.Data Strobe (DS): Indicates the timing of data transfer on the data bus during read or write operations.
-        5.Memory/IO Select (M/IO): Specifies whether the address on the address bus corresponds to memory or an I/O device.
+        1.Read Enable (RE)
+        
+        2.Write Enable (WE)
+        
+        3.Data Enable (DEN)
+        
+        4.Data Strobe (DS)
+        
+        5.Memory/IO Select (M/IO)
+        
 **2.Instruction Control Signals:**
-        1.Instruction Fetch (IF): Indicates that the CPU is fetching the next instruction from memory.
-        2.Instruction Decode (ID): Decodes the fetched instruction to determine the operation to be performed.
-        3.Execution Control (EC): Controls the execution of the current instruction, including branching and conditional execution.
-        4.Memory Access (MA): Signals the CPU to access memory for data or instruction retrieval.
-        5.Write Back (WB): Controls the writing of results back to registers or memory after instruction execution.
+        1.Instruction Fetch (IF)
+        
+        2.Instruction Decode (ID)
+        
+        3.Execution Control (EC)
+        
+        4.Memory Access (MA)
+        
+        5.Write Back (WB)
+        
 **3.Arithmetic and Logic Unit (ALU) Control Signals:**
         1.ALU Operations Select: Specifies the arithmetic or logical operation to be performed by the ALU (e.g., addition, subtraction, AND, OR).
+        
         2.Carry In/Out: Indicates the presence of a carry from a previous ALU operation or generates a carry-out signal for multi-word arithmetic operations.
+        
         3.Overflow: Signals whether an arithmetic operation resulted in overflow, indicating an error condition.
+        
         4.Zero Flag: Indicates whether the result of an operation is zero.
+        
         5.Negative Flag: Indicates whether the result of an operation is negative.
+        
 **4.Clock Control Signals:**
+
         1.Clock: The primary timing signal that synchronizes the operation of various components within the CPU and the system.
+        
         2.Clock Enable (CLKEN): Enables or disables the clock signal to specific components or modules within the CPU, allowing for power-saving modes or clock gating.
+        
 **5.Interrupt Control Signals:**
+
         1.Interrupt Request (IRQ): Indicates that an external device or peripheral has requested attention from the CPU.
+        
         2.Interrupt Acknowledge (INTA): Acknowledges an interrupt request and initiates interrupt handling.
+        
         3.Interrupt Enable (INTEN): Enables or disables interrupt processing within the CPU.
+        
 **6.Reset Control Signal:**
+
         1.Reset: Initializes the CPU and other components to a known state when the system is powered on or reset, clearing registers, counters, and other stateful components.
 
 
